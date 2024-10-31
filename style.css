@@ -890,9 +890,19 @@ h5 {
   transform: scale(2);
 }
 
+.banner-item{
+  background-position: right 0px;
+  background-image: url(images/heidi2.png); 
+  background-repeat: no-repeat; 
+  height: 720px;
+}
+
 @media only screen and (max-width: 1200px) {
+  .banner-item{
+    background-position: center 0px;
+  }
   #evento .banner-content {
-    background-color: rgba(246, 245, 242, 0.5);
+    background-color: rgba(246, 245, 242, 0.3);
     height: 100%;
   }
 
