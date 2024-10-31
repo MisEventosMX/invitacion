@@ -220,8 +220,8 @@ h5 {
 }
 
 .btn.btn-large {
-  padding: 2.4em 5.1em;
-  font-size: 1.8em;
+  padding: 1.4em 3.8em;
+  font-size: 1.4em;
 }
 
 /* - Button Shapes
@@ -851,7 +851,7 @@ h5 {
   width: 32%;
 }
 
-#billboard .swiper-pagination {
+#evento .swiper-pagination {
   left: -730px;
   bottom: 160px;
 }
@@ -891,7 +891,7 @@ h5 {
 }
 
 @media only screen and (max-width: 1200px) {
-  #billboard .banner-content {
+  #evento .banner-content {
     background-color: rgba(246, 245, 242, 0.5);
     height: 100%;
   }
@@ -904,7 +904,7 @@ h5 {
     width: 90%;
   }
 
-  #billboard .swiper-pagination {
+  #evento .swiper-pagination {
     right: 0;
     bottom: 60px;
     left: 0;
@@ -1010,11 +1010,11 @@ h5 {
 
 /* 9. Brand Collection
 /*----------------------------------------------*/
-#brand-collection a img {
+#asistencia a img {
   opacity: 0.3;
   transition: opacity 0.3s ease-out;
 }
-#brand-collection a:hover img {
+#asistencia a:hover img {
   opacity: 1;
 }
 

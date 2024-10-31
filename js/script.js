@@ -22,7 +22,7 @@
       speed: 500,
       loop: true,
       pagination: {
-        el: "#billboard .swiper-pagination",
+        el: "#evento .swiper-pagination",
         clickable: true,
       },
     });
