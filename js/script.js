@@ -181,7 +181,7 @@
 
   var timer;
 
-    var compareDate = new Date('2024-11-22 15:00');
+    var compareDate = new Date('2024-12-28 16:00');
     compareDate.setDate(compareDate.getDate()); //just for this demo today + 7 days
     timer = setInterval(function() {
     timeBetweenDates(compareDate);
