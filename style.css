@@ -900,14 +900,17 @@ h5 {
 @media only screen and (max-width: 1200px) {
   .banner-item{
     background-position: center 0px;
+    height: 140vh;
   }
   #evento .banner-content {
-    background-color: rgba(246, 245, 242, 0.3);
+    background-color: rgba(246, 245, 242, 0.1);
     height: 100%;
+    padding-top: 62vh;
   }
 
   .banner-content h1.display-1 {
     font-size: 4.5em;
+    color: #e7e5e2 !important;
   }
 
   .banner-content p {
@@ -924,6 +927,7 @@ h5 {
 @media only screen and (max-width: 768px) {
   .banner-content h1.display-1 {
     font-size: 3.5em;
+    color: #e7e5e2 !important;
   }
 }
 
