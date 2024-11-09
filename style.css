@@ -695,7 +695,7 @@ h5 {
 ------------------------------------------------------------- */
 .btn.btn-arrow {
   color: var(--bs-light);
-  background-color: var(--bs-primary);
+  background-color: var(--bs-pink);
   border-radius: 0;
 }
 
@@ -892,9 +892,70 @@ h5 {
 
 .banner-item{
   background-position: right 0px;
-  background-image: url(images/heidi2.png); 
-  background-repeat: no-repeat; 
+  background-image: url(images/heidi2.png);
+  background-repeat: no-repeat;
   height: 720px;
+}
+#evento .banner-content {
+  background-color: rgba(246, 245, 242, 0.1);
+}
+
+#evento::before{
+  content: " ";
+  position: absolute;
+  top: 8rem; 
+  left: 0;
+  opacity: .7; 
+  z-index: -1;
+  width: 100%;
+  margin-top: -0.75rem !important;
+  background-image: url(images/fondo_1.png);
+  background-repeat: repeat-x;
+  background-position: left;
+  background-size: contain;
+  height: 740px;
+}
+
+#asistencia::before{
+  content: " ";
+  position: absolute;
+  opacity: .8;
+  z-index: -1;
+  width: 100%;
+  height: 520px;
+  background-image: url(images/90834-OJT5DA-436.png);
+  background-color: rgba(255, 255, 255, 0.18);
+  background-repeat: repeat-x;
+  background-position: left;
+}
+
+#gracias::before{
+  content: " ";
+  position: absolute;
+  opacity: .8;
+  z-index: -1;
+  width: 100%;
+  height: 650px;
+  margin-top: -1.9rem !important;
+  background-image: url(images/8245133.png);
+  background-color: rgba(255, 255, 255, 0.18);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#footer::before{
+  content: " ";
+  position: absolute;
+  opacity: .7;
+  z-index: -1;
+  width: 100%;
+  height: 250px;
+  background-image: url(images/2767156.png);
+  background-color: rgba(255, 255, 255, 0.18);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -902,15 +963,27 @@ h5 {
     background-position: center 0px;
     height: 140vh;
   }
+  #evento{
+    height: 142vh;
+  }
+  #evento::before{
+    height: 142vh;
+    background-position: center 0px;
+  }
+
+  #gracias::before{
+    height: 980px;
+  }
+
   #evento .banner-content {
-    background-color: rgba(246, 245, 242, 0.1);
+    background-color: rgba(246, 245, 242, 0.3);
     height: 100%;
     padding-top: 62vh;
   }
 
   .banner-content h1.display-1 {
     font-size: 4.5em;
-    color: #e7e5e2 !important;
+    color: #808080 !important;
   }
 
   .banner-content p {
@@ -927,7 +1000,7 @@ h5 {
 @media only screen and (max-width: 768px) {
   .banner-content h1.display-1 {
     font-size: 3.5em;
-    color: #e7e5e2 !important;
+    color: #808080 !important;
   }
 }
 
