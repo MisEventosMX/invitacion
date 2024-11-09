@@ -922,7 +922,7 @@ h5 {
   opacity: .8;
   z-index: -1;
   width: 100%;
-  height: 520px;
+  height: 800px;
   background-image: url(images/90834-OJT5DA-436.png);
   background-color: rgba(255, 255, 255, 0.18);
   background-repeat: repeat-x;
@@ -938,20 +938,6 @@ h5 {
   height: 650px;
   margin-top: -1.9rem !important;
   background-image: url(images/8245133.png);
-  background-color: rgba(255, 255, 255, 0.18);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#footer::before{
-  content: " ";
-  position: absolute;
-  opacity: .7;
-  z-index: -1;
-  width: 100%;
-  height: 250px;
-  background-image: url(images/2767156.png);
   background-color: rgba(255, 255, 255, 0.18);
   background-repeat: no-repeat;
   background-position: center;
